@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Martian+Mono:wght@200&family=Skranji&display=swap');
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Croissant One', cursive;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    /* background-color:black; 
+    color: whitesmoke; */
+    align-items: center;
+}
+
+li{
+    color: white;
+    padding: 8px;
+}
+
+.brand img{
+    width: 50px;
+    border-radius: 30px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    /* padding: 7px; */
+    padding-right: 30px;
+}
