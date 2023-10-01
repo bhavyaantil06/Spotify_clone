@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Martian+Mono:wght@200&family=Skranji&display=swap');
 body {
-    background-color: antiquewhite;
+    background-color: rgb(190, 137, 63);
 }
 
 * {
@@ -28,6 +28,9 @@ li{
     color: white;
     padding: 8px;
 }
+#profile{
+    justify-content: end;    
+}
 
 .brand img{
     width: 50px;
@@ -43,4 +46,73 @@ li{
     font-size: 1.5rem;
     /* padding: 7px; */
     padding-right: 30px;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 10px;
+    padding: 15px;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bottom{
+    /* position: sticky; */
+    height: 80px;
+    background-color: rgb(135, 143, 253);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    flex-direction: column;
+}
+
+#progressbar{
+    width: 80vw;
+}
+
+.icons{
+    color: aliceblue;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40px;
+    margin: 5px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    width: 320px;
+    justify-content: space-between;
+    padding: 4px;
+    border-radius: 25px;
+    margin: 4px;
+
+}
+.songItem img{
+    padding: 2px;
+    width: 90px;
+    border-radius: 30px;
+}
+
+.songname{
+    width: 130px;
+}
+
+.img iconn{
+    cursor: pointer;
 }
