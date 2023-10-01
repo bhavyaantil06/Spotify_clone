@@ -78,6 +78,7 @@ li{
 
 #progressbar{
     width: 80vw;
+    cursor: pointer;
 }
 
 .icons{
@@ -88,6 +89,7 @@ li{
     justify-content: center;
     width: 40px;
     margin: 5px;
+    cursor: pointer;
 }
 
 .songItem{
@@ -112,7 +114,14 @@ li{
 .songname{
     width: 130px;
 }
-
-.img iconn{
+.iconn{
     cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 20vw;
+    margin: 10px;
+    color: rgb(1, 0, 1);
+
 }
